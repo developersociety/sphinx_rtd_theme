@@ -118,12 +118,9 @@ footer
 .wy-menu-vertical a
   color: white
   border-right: none
-  transition: all 0.15s ease
 
 .wy-menu-vertical li.current a:hover
   background: inherit
-  transform: translateX(1em)
-  transition: all 0.15s ease
 
 hr
   height: 1px
@@ -136,3 +133,29 @@ hr
   font-weight: 700
   text-decoration: none !important
   padding: 9px 18px
+
+.wy-nav-side
+  color: white
+
+.wy-menu-vertical li.toctree-l1.current > a
+  border: none
+
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a
+  background: #0a4fa9
+
+.wy-menu-vertical li.toctree-l2.current > a
+  background: #0D65DB
+
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a
+  background: #0a4fa9
+
+.wy-menu-vertical li.toctree-l3 span.toctree-expand,
+.wy-menu-vertical li.toctree-l3 a:hover span.toctree-expand,
+.wy-menu-vertical li.toctree-l2 span.toctree-expand,
+.wy-menu-vertical li.toctree-l2 a:hover span.toctree-expand,
+.wy-menu-vertical li.toctree-l1 span.toctree-expand,
+.wy-menu-vertical li.toctree-l1 a:hover span.toctree-expand
+  color: white
+
+.document .sidebar
+  background: #f0f0f0
